@@ -198,6 +198,19 @@ documents = [
   Run full pipeline
 
 final_rank=jiajia_search_pipeline(query, documents)
+
+====================================================================================================
+🏆 JiaJia-Search Final Sort Results
+====================================================================================================
+Rank    Final Score    Re-ranking Score    Correlation Level             Document
+----------------------------------------------------------------------------------------------------
+Top1   0.3323    0.9858      Highly relevant         How much is a used iPhone
+Top2   0.2879    0.9010      Highly relevant         "Apple Phone Official Price
+Top3   0.2611    0.7971      Moderately relevant     iPhone 15 Price
+Top4   0.0385    0.0047      Low relevance           Latest Huawei Phone Quote
+Top5   0.0372    0.0013      Low relevance           Xiaomi Phone Price Inquiry
+=================================================================================
+
 ```
 
 ## 🧠 Relevance Score Standard
