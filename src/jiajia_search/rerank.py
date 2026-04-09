@@ -25,7 +25,7 @@ def load_rerank_model():
         model_file=config.RERANK_ONNX_FILE,
         sources=ModelSource(url=config.RERANK_MODEL_PATH),
     )
-    _rerank_model_instance = TextCrossEncoder(model_name=config.RERANK_MODEL_PATH)
+    _rerank_model_instance = TextCrossEncoder(model_name=config.RERANK_MODEL_PATH, specific_model_path=config.RERANK_MODEL_PATH)
     print("✅ 重排模型【已预加载】→ 全局复用中...")
     return _rerank_model_instance
 

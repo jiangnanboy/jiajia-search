@@ -368,7 +368,6 @@ The framework runs on ONNX format, please download the following open-source mod
 
 ## ⚠️ Notes
 
-
 1. Models must be in **ONNX format** (PyTorch native models are not supported);
 
 2. Global singleton loading: models are loaded once and reused in memory;
@@ -376,6 +375,10 @@ The framework runs on ONNX format, please download the following open-source mod
 3. Model paths must be configured via `config.setup()`;
 
 4. All dependencies are installed automatically.
+
+## Fixes and Updates
+
+1. Fixed issues related to Linux installation and usage
 
 ## 📄 License
 

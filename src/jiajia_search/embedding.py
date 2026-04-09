@@ -28,7 +28,7 @@ def load_embedding_model():
         dim=config.VECTOR_DIM,
         model_file=config.VECTOR_ONNX_FILE
     )
-    _embedding_model_instance = TextEmbedding(model_name=config.VECTOR_MODEL_PATH)
+    _embedding_model_instance = TextEmbedding(model_name=config.VECTOR_MODEL_PATH, specific_model_path=config.VECTOR_MODEL_PATH)
     print("✅ 向量模型【已预加载】→ 全局复用中...")
     return _embedding_model_instance
 
