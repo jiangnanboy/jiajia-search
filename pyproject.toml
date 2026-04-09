@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 # 包名（pip install 这个名字）
 name = "jiajia-search"
 # 版本号（每次更新打包改这个）
-version = "0.1.1"
+version = "0.1.2"
 # 项目描述
 description = "多语言轻量级高性能混合检索引擎，专为RAG全链路检索&重排设计"
 readme = "README.md"
