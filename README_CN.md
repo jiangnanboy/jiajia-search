@@ -8,7 +8,7 @@
 
 👉 **点击快速切换**：
 
-[中文文档](README_CN.md) ｜ [English Documentation](README_EN.md)
+[中文文档](README_CN.md) ｜ [English Documentation](README.md)
 
 
 ***
